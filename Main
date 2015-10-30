@@ -13,7 +13,7 @@ loglevel = notify
 
 
 [Rule]
-//  Must sort the list follow this order: 
+//  Must sort the list following this order: 
 //      REJECT->Proxy->DIRECT. 
 //  AND for each section you should sort them like this:
 //      DOMAIN->DOMAIN-SUFFIX->DOMAIN-KEYWORD.
