@@ -9,7 +9,7 @@ loglevel = notify
 # Shadowsocks 代理设置（TFO 需要服务器端程序及内核支持）
 # HTTPS 代理推荐使用 TLS_RSA_WITH_AES_128_GCM_SHA256 Ciphers
 #Proxy = custom,1.2.3.4,443,username,password,http://abc.com/SSEncrypt.module,tcp-fast-open=true
-Proxy = custom, 1.2.3.4, 443, rc4-md5, password, http://surge.run/SSEncrypt.module
+Proxy = custom, 1.2.3.4, 443, rc4-md5, password, http://surge.run/SSEncrypt.module,tcp-fast-open=true
 // http://bzy.me/ss/SSEncrypt.module  OR  https://github.com/thinkways/SSEncrypt/raw/master/SSEncrypt.module
 
 
