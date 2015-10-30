@@ -283,8 +283,8 @@ IP-CIDR,109.239.140.0/24,Proxy,no-resolve
 IP-CIDR,149.154.160.0/20,Proxy,no-resolve
 
 //************ PART 3: Special attention ***********//
-// Firstly proxy
 # Custom rules for Specific sites
+// Firstly: Proxy
 DOMAIN-SUFFIX,icloud.com,Proxy
 DOMAIN-SUFFIX,me.com,Proxy
 // Then direct
